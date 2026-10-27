@@ -29,21 +29,22 @@ Desenvolvido para execução direta via pendrive/USB, o toolkit permite interven
 Obter os Arquivos:
 Clone este repositório ou faça o download como .zip, extraindo o conteúdo na raiz do seu pendrive:
 
-Bash
+- Bash
 git clone [https://github.com/Brenosspc/WinOpt-Suite.git](https://github.com/Brenosspc/WinOpt-Suite.git)
 Dependências Opcionais (RAMMap):
 
-Baixe o utilitário oficial RAMMap.exe no site da Microsoft Sysinternals.
+- Baixe o utilitário oficial RAMMap.exe no site da Microsoft Sysinternals.
 
 Cole o arquivo RAMMap.exe diretamente na pasta raiz do WinOpt - Suite (necessário apenas se for utilizar a opção de limpeza de cache Standby RAM).
 
+
 Execução em Campo:
 
-Conecte o pendrive na máquina do cliente.
+- Conecte o pendrive na máquina do cliente.
 
-Clique com o botão direito no arquivo MENU-SUPORTE.bat e selecione "Executar como Administrador".
+- Clique com o botão direito no arquivo MENU-SUPORTE.bat e selecione "Executar como Administrador".
 
-Escolha a opção desejada no painel numérico do menu e pressione Enter.
+- Escolha a opção desejada no painel numérico do menu e pressione Enter.
 
 Nota: Todos os diagnósticos e relatórios gerados pelos scripts serão gravados automaticamente na pasta Logs/ dentro da própria suíte.
 
@@ -62,27 +63,3 @@ Nota: Todos os diagnósticos e relatórios gerados pelos scripts serão gravados
 ├── 📄 9-Fix-Criar-Ponto-Restauracao.ps1 # Criação de ponto de restauração
 ├── 📄 10-Diag-Relatorio-Bateria.ps1     # Gerador de relatório de bateria
 └── 📂 Logs/                             # Logs de execução gerados automaticamente
-```
-
-🚀 Como Usar
-Obter os Arquivos:
-Clone este repositório ou faça o download como .zip, extraindo o conteúdo na raiz do seu pendrive:
-
-- Bash
-git clone [https://github.com/Brenosspc/WinOpt-Suite.git](https://github.com/Brenosspc/WinOpt-Suite.git)
-Dependências Opcionais (RAMMap):
-
-- Baixe o utilitário oficial RAMMap.exe no site da Microsoft Sysinternals.
-
-- Cole o arquivo RAMMap.exe diretamente na pasta raiz do WinOpt - Suite (necessário apenas se for utilizar a opção de limpeza de cache Standby RAM).
-
-
-Execução em Campo:
-
-- Conecte o pendrive na máquina do cliente.
-
-- Clique com o botão direito no arquivo MENU-SUPORTE.bat e selecione "Executar como Administrador".
-
-- Escolha a opção desejada no painel numérico do menu e pressione Enter.
-
-Nota: Todos os diagnósticos e relatórios gerados pelos scripts serão gravados automaticamente na pasta Logs/ dentro da própria suíte.
